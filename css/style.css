@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #101010;
+}
+
+.menu{ /*todo o menu completo*/
+    /*position: fixed;*/
+    width: 100%;
+    height: 90px;
+    background: black;
+    margin-top: 0;
+}
+
+.logo{ /*logo v de vale*/
+    margin: -50px auto auto 20px;
+}
+
+.menu >.optMenu{ /*opiçoes: inicio, progamação, contato*/
+    margin-left: 100px;
+}
+
+.opt{ /*opiçoes: inicio, progamação, contato*/
+    color: white;
+    display: inline-block;
+    margin-right: -4px;
+    margin-left: 30px; 
+    margin-top: 35px;
+    transition: color 0.2s;
+}
+
+@media screen and (max-width:800px){
+    .opt{
+        margin-left: 15px;
+    }
+}
+
+.opt:hover{
+    color: #ffcb04;
+}
+/*Aqui termina o menu*/
+
+/*Aqui começa as imgs com textos*/
+.imgtop{ /*img mulher*/
+    background: black;
+    background-image: url('../imgs/img_top.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+}
+
+.ouvir{
+    margin: -150px auto auto 120px;
+    transition: filter 0.2s;
+}
+
+.ouvir:hover{
+    filter: brightness(90%);
+}
+
+@media screen and (max-width:800px){
+    .imgtop{
+        background-size: cover;
+        height: 410px;
+        background-position: -60px 0;
+    }
+}
+
+@media screen and (max-width:800px){
+    .ouvir{
+        margin: -150px auto auto 70px;
+    }
+}
+
+div .redes-sociais > a{
+    color: white;
+}
+
+.redes-sociais{
+    color: white;
+    margin-top: -60px;
+    margin-left: 90%;
+    font-size: 30px;
+}
+
+@media screen and (max-width:800px){
+    .redes-sociais{
+        font-size: 20px;
+    }
+}
+
+.redes-sociais img{
+    display: inline-block;
+    margin-right: -4px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.face:hover{color: #ffcb04;}
+.insta:hover{color: #ffcb04;}
+.whats:hover{color: #ffcb04;}
+
+@media screen and (max-width:800px){
+    .redes-sociais img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .redes-sociais{
+        margin-top: -75px;
+        margin-left: 93%;
+    }
+}
+
+/*Referente a main 1*/
+.wallpaper_1{ /*referente a infoqual1*/
+    background: black;
+    background-image: url('../imgs/wallpaper_1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:800px){
+    .wallpaper_1{
+        background-size: cover;
+        height: 410px;
+        margin-top: 0;
+        background-position: -500px 0;
+    }
+}
+
+.infoqual{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    vertical-align: center;
+    margin: -250px 50px auto 0;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:800px){
+    .infoqual{
+        text-align: right;
+    }
+}
+
+/*Referente a main 2*/
+.wallpaper_2{ /*referente a infoqual2*/
+    background: black;
+    background-image: url('../imgs/wallpaper_2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+    margin-top: 110px;
+}
+
+@media screen and (max-width:800px){
+    .wallpaper_2{
+        background-size: cover;
+        height: 410px;
+        margin-top: 70px;
+        background-position: -300px 0;
+    }
+}
+
+.infoqual2{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    vertical-align: center;
+    margin: -250px 0 auto 50px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.super{/*span global*/
+    color: #ffcb04;
+}
+
+/*footer*/
+
+.index{
+    margin-top: 110px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.playstore{
+    width: 300px;
+    position: absolute;
+    margin: 40px auto 0 50px;
+}
+
+.dow{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.playstore-incon{
+    width: 300px;
+}
+
+.logofooter{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 700px;
+}
+
+h1 > span{
+     color: #ffcb04;
+}
+
+ @media screen and (max-width:800px){
+    .logofooter{
+        display: none;
+    }
+
+    .playstore{
+        position: absolute;
+        margin-left: 85px;
+    }
+}
+
+ /*Pagina de Progamação referente main prog1*/
+.segsex{
+    margin: 20px 0 auto 50px;
+}
+
+.segsex > h2{
+    margin-bottom: 10px;
+    margin-left: 50px; 
+    color: #ffcb04;
+}
+
+.segsex div h2:first-child{
+    margin-top: 6px;
+}
+
+.segsex ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.segsex > div{
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:800px){
+    .segsex{
+        margin: 20px 0 0 100px;
+    }
+}
+/*Aqui encerra a progamaçãode segunda a sexta*/
+
+/*Progamação sabado e domingo*/
+.sabdom{
+    margin: 20px 0 auto 50px;
+}
+
+.sabdom > h2{
+    margin-bottom: 10px;
+    margin-left: 50px; 
+    color: #ffcb04;
+}
+
+.sabdom div h2:first-child{
+    margin-top: 6px;
+}
+
+.sabdom ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sabdom > div{
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:800px){
+    .sabdom{
+        margin: 20px 0 0 100px;
+    }
+}
+/*Aqui encerra a progamaçãode final de semana*/
+
+/*Aqui começa o contato*/
+.contato{
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    background-image: url("../imgs/wallpaper_2.png");
+    background-size: cover;
+}
+
+.contato > h2{
+    color: #ffcb04;
+    margin: 0 0 20px 50px;
+}
+
+.contato > div{
+    margin-left: 70px;
+}
+
+.footercontato{
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.footercontato > .playstore{
+    width: 300px;
+    position: absolute;
+    margin: 40px auto 0 50px;
+}
+
+.footercontato > .dow{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footercontato > .playstore-incon{
+    width: 300px;
+}
+
+.footercontato > .logofooter{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 700px;
+}
+
+h1 > span{
+     color: #ffcb04;
+}
+
+ @media screen and (max-width:800px){
+    .footercontato > .logofooter{
+        display: none;
+    }
+
+    .footercontato > .playstore{
+        position: absolute;
+        margin-left: 85px;
+    }
+}
